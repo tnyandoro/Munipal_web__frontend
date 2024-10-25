@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff; /* Set the navbar background color to black */
+    color: #069973; /* Set the text color to white for better contrast */
+}
+
+.logo img {
+    height: 160px; /* Double the height of the logo to make it twice as big */
+    width: auto;
+}
+
+.navigation a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #0075C0; /* Set the link color to white */
+    font-size: 16px;
+}
+
+.navigation a:hover {
+    color: #ccc; /* Optional: Change link color on hover for better effect */
+}

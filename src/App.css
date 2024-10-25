@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.App {
+    text-align: center;
+}
+
+header, .hero-section, .features, .how-it-works, .cta, footer {
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 1200px;
+}
+
+.hero-section {
+    background-color: #069973; /* Old Mutual's dark green */
+    color: #fff;
+    padding: 60px 20px;
+}
+
+.features, .how-it-works, .cta {
+    background-color: #e9ecef;
+}
+
+footer {
+    background-color: #0075C0;
+    color: #fff;
+    padding: 40px 20px;
+}
